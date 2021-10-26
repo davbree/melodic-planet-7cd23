@@ -14,7 +14,7 @@ function Page(props) {
     if (!PageLayout) {
         throw new Error(`no page layout matching the layout: ${layout}`);
     }
-    return <PageLayout page={page} site={site} />;
+    return <div>aaa</div>
 }
 
 export async function getStaticPaths() {
