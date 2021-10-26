@@ -14,7 +14,7 @@ sections:
       vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     actions:
       - type: Button
-        label: Learn More
+        label: Learn More??
         url: 'https://www.stackbit.com/'
         style: secondary
       - type: Button
