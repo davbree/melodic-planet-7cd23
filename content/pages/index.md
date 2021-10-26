@@ -68,7 +68,7 @@ sections:
   - type: FeaturedPostsSection
     variant: variant-c
     colors: colors-a
-    backgroundWidth: full
+    backgroundWidth: inset
     title: Blog Posts
     posts:
       - content/pages/blog/post-three.md
