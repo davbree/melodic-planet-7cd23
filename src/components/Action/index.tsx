@@ -6,7 +6,7 @@ export default function Action(props) {
     const { type, label, altText, url, showIcon } = props;
     const icon = props.icon || 'arrowLeft';
     const iconPosition = props.iconPosition || 'right';
-    const IconComponent = iconMap[icon];
+    const IconComponent = null;
     const annotationPrefix = props.annotationPrefix || '';
     const annotations = [
         `${annotationPrefix}`,
