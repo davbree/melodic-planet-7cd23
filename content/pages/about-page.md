@@ -42,7 +42,7 @@ sections:
       - label: What about us
         altText: Learn more
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowLeft
         iconPosition: right
         style: secondary
