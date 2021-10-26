@@ -38,6 +38,16 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    actions:
+      - label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowLeft
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
   - type: CtaSection
     colors: colors-c
     title: Careers
