@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-i
-    backgroundWidth: full
+    backgroundWidth: inset
     title: Hi! I'm A Big Hero Headline
     text: >-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
