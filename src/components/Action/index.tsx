@@ -22,16 +22,7 @@ export default function Action(props) {
     const cssId = props.elementId || null;
 
     return (
-        <Link
-            href={url}
-            aria-label={altText}
-            id={cssId}
-            className={classNames('sb-component', 'sb-component-block', style === 'link' ? 'sb-component-link' : 'sb-component-button', cssClasses, {
-                'sb-component-button-primary': style === 'primary',
-                'sb-component-button-secondary': style === 'secondary'
-            })}
-            data-sb-field-path={annotations.join(' ').trim()}
-        >
+<>
             {label && <span>{label}</span>}
             {showIcon && IconComponent && (
                 <IconComponent
