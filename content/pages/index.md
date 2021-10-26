@@ -25,7 +25,7 @@ sections:
     feature:
       type: ImageBlock
       url: /images/hero.png
-      altText: Image alt text
+      altText: BIG HERO
       caption: Image caption
     styles:
       self:
