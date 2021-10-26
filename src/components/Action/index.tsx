@@ -22,7 +22,7 @@ export default function Action(props) {
     const cssId = props.elementId || null;
 
     return (
-<>
+        <>
             {label && <span>{label}</span>}
             {showIcon && IconComponent && (
                 <IconComponent
@@ -33,5 +33,6 @@ export default function Action(props) {
                     })}
                 />
             )}
+        </>
     );
 }
