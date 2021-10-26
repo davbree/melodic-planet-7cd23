@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import MyAction from './Action';
+import MyAction from './Action/index.tsx';
 
 
 registerComponents({
