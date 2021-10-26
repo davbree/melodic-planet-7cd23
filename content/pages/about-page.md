@@ -44,7 +44,7 @@ sections:
         url: /
         showIcon: true
         icon: cart
-        iconPosition: right
+        iconPosition: left
         style: secondary
         elementId: ''
         type: Button
