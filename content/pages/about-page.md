@@ -45,7 +45,7 @@ sections:
         showIcon: true
         icon: cart
         iconPosition: left
-        style: secondary
+        style: primary
         elementId: ''
         type: Button
   - type: CtaSection
