@@ -43,7 +43,7 @@ sections:
         altText: Learn more
         url: /
         showIcon: true
-        icon: arrowLeft
+        icon: cart
         iconPosition: right
         style: secondary
         elementId: ''
