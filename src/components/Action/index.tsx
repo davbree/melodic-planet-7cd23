@@ -1,16 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
 
-const iconMap = {
-    arrowLeft: ArrowLeft,
-    arrowRight: ArrowRight,
-    cart: Cart,
-    facebook: Facebook,
-    github: GitHub,
-    instagram: Instagram,
-    linkedin: LinkedIn,
-    twitter: Twitter
-};
 
 export default function Action(props) {
     const { type, label, altText, url, showIcon } = props;
