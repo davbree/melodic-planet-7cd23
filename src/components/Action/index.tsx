@@ -23,7 +23,7 @@ export default function Action(props) {
 
     return (
         <>
-            {label && <span>{label}</span>}
+            [[{label && <span>{label}</span>}]]
             {showIcon && IconComponent && (
                 <IconComponent
                     className={classNames('fill-current h-5 w-5', {
