@@ -39,7 +39,7 @@ sections:
       actions:
         justifyContent: flex-start
     actions:
-      - label: Learn more
+      - label: What about us
         altText: Learn more
         url: /
         showIcon: false
