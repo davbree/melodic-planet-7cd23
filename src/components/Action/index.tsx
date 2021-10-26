@@ -1,14 +1,5 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '../../utils/link';
-import ArrowLeft from '../../svgs/arrow-left';
-import ArrowRight from '../../svgs/arrow-right';
-import Cart from '../../svgs/cart';
-import Facebook from '../../svgs/facebook';
-import GitHub from '../../svgs/github';
-import Instagram from '../../svgs/instagram';
-import LinkedIn from '../../svgs/linkedin';
-import Twitter from '../../svgs/twitter';
 
 const iconMap = {
     arrowLeft: ArrowLeft,
