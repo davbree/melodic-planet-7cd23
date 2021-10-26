@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-// import Action from './Action';
+import Action from './MyAction';
 
 registerComponents({
     // Register all Stackbit components
@@ -9,7 +9,7 @@ registerComponents({
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
-    // Action: MyAction
+    Action: MyAction
 });
 
 /**
